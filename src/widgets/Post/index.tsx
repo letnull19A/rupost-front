@@ -11,7 +11,16 @@ const Post = (props: TPostProps) => {
 
   return (
     <div className={style.post}>
-      <p>{ text } </p>
+      <div className={style.postInfo}>
+       <div className={style.postInfoUser}>
+        <div className={style.postInfoUserImage}></div>
+        <a href='#'>user/id0</a>
+       </div>
+      <span>at 11:34pm</span>
+      </div>
+      <p className={style.postText}>
+       { text } 
+      </p>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Header, Container, Post } from './widgets'
+import {NewPost, Header, Preloader, Container, Post } from './widgets'
 import { Post as PostApi} from './api'
 import style from './styles.module.css'
 
@@ -15,11 +15,15 @@ function App() {
     <>
       <Header/>
       <Container className={style.posts}>
-       {posts.map((post, index) =>
-        <Post 
-         key={index}
-         text={post.text}/>
+       <>
+        <NewPost/>
+        {posts.map((post, index) =>
+         <Post
+          key={index}
+          text={post.text}/>
         )}
+        <Preloader/>
+       </>
       </Container>
     </>
   )

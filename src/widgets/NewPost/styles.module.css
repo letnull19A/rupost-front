@@ -1,0 +1,17 @@
+.newPost {
+ display: flex;
+ flex-direcrion: row;
+ width: calc(100% - 10px);
+ background-color: #3a3d3c;
+ padding: 5px;
+ border-radius: 10px;
+ margin-bottom: 10px;
+}
+
+.newPostInput {
+ border: none;
+ padding-inline: 5px;
+ color: #fff;
+ background-color: transparent;
+ width: 90%;
+}

@@ -3,4 +3,37 @@
   min-height: 40px;
   background-color: #3a3c3d;
   padding: 10px;
+  border-radius: 10px;
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+}
+
+.postInfoUser a {
+  line-height: 32px;
+}
+
+.postInfoUser {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 32px;
+}
+
+.postInfoUserImage {
+  width: 32px;
+  height: 32px;
+  background-color: #cc11aa;
+  display: block;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.postText {
+  margin-top: 5px;
 }
