@@ -1,0 +1,8 @@
+@import './widgets/Post/styles.module.css';
+
+.posts {
+  margin-top: calc(10px + var(--header-height));
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
