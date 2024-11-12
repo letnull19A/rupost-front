@@ -7,13 +7,17 @@
   display: block;
   width: 100%;
   height: var(--header-height);
-  background-color: #3a3c3d;
+  background-color: var(--primary-color);
+  border-bottom: 2px solid #004d4d;
   position: fixed;
   z-index: 998;
   top: 0;
   left: 0;
 }
 
+.headerTitle {
+  font-size: 25px;
+}
 
 .headerContent {
   width: 100%;

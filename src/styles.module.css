@@ -1,5 +1,9 @@
 @import './widgets/Post/styles.module.css';
 
+:root {
+ --primary-color: #008080;
+}
+
 .posts {
   margin-top: calc(10px + var(--header-height));
   display: flex;

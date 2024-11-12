@@ -1,5 +1,6 @@
 
 import React from 'react'
+import {Link} from 'react-router-dom'
 import { Container } from './../'
 import style from './styles.module.css'
 
@@ -8,9 +9,9 @@ const Header = () => {
     <header className={style.header}>
       <Container>
         <div className={style.headerContent}>
-          ruPosts
+          <span className={style.headerTitle}>ruPosts</span>
           <div className={style.headerControls}>
-            <span>Войти</span>
+            <Link to='/login'>Войти</Link>
             <span>Регистрация</span>
           </div>
         </div>
