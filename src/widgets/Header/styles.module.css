@@ -15,6 +15,13 @@
   left: 0;
 }
 
+.header a,
+.header a:hover,
+.header a:active {
+  color: #ffffff;
+  background-color: transparent;
+}
+
 .headerTitle {
   font-size: 25px;
 }

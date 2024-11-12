@@ -1,18 +1,20 @@
-
 import React from 'react'
-import {Link} from 'react-router-dom'
-import { Container } from './../'
+import {Link, useNavigate} from 'react-router-dom'
+import {Container} from './../'
 import style from './styles.module.css'
 
 const Header = () => {
+
+  const navigate = useNavigate()
+
   return (
     <header className={style.header}>
       <Container>
         <div className={style.headerContent}>
-          <span className={style.headerTitle}>ruPosts</span>
+          <Link className={style.headerTitle}>ruPosts</Link>
           <div className={style.headerControls}>
-            <Link to='/login'>Войти</Link>
-            <span>Регистрация</span>
+            <span onClick={() => navigate('/login')}>Войти</span>
+            <span onClick={() => navigate('/registration')}>Регистрация</span>
           </div>
         </div>
       </Container>
