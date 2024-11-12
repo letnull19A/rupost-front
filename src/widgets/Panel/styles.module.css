@@ -1,0 +1,7 @@
+.panel {
+ width: 100%;
+ height: auto;
+ background-color: #3a3c3d;
+ border-radius: 10px;
+ padding: 10px;
+}
