@@ -20,3 +20,9 @@ h2 {
 form input[type=submit] {
  margin-top: 15px;
 }
+
+form a {
+ display: flex;
+ justify-content: center;
+ margin-top: 10px;
+}

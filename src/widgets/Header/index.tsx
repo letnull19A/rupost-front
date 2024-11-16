@@ -11,7 +11,7 @@ const Header = () => {
     <header className={style.header}>
       <Container>
         <div className={style.headerContent}>
-          <Link className={style.headerTitle}>ruPosts</Link>
+          <Link className={style.headerTitle}>ruPost</Link>
           <div className={style.headerControls}>
             <span onClick={() => navigate('/login')}>Войти</span>
             <span onClick={() => navigate('/registration')}>Регистрация</span>

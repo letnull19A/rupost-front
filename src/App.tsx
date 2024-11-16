@@ -1,8 +1,8 @@
 import {Outlet, createBrowserRouter, RouterProvider} from 'react-router-dom'
-import { useEffect, useState } from 'react'
+import {useEffect, useState} from 'react'
 import {Header, Preloader, Container} from './widgets'
 import style from './styles.module.css'
-import {Posts} from './pages'
+import {Posts, Login, Registration} from './pages'
 
 const Wrapper = () => {
  return (
@@ -28,11 +28,15 @@ function App() {
     },
     {
      path: 'login',
-    element: <>Login page here...</>
+     element: <Login/>
     },
     {
      path: '',
      element: <Posts/>
+    },
+    {
+     path: 'registration',
+     element: <Registration/>
     }
    ]
   }

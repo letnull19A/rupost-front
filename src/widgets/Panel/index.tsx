@@ -5,7 +5,7 @@ type TPanelProps = {
  children?: Element
 }
 
-const Panel = (ptops: TPanelProps) => {
+const Panel = (props: TPanelProps) => {
 
   const {children} = props
 
