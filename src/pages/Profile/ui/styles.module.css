@@ -1,0 +1,34 @@
+.image {
+ display: block;
+ width: 120px;
+ height: 120px;
+ margin: 0 auto;
+ border-radius: 150px;
+ background-color: #000000;
+ border: 3px solid var(--primary-color);
+}
+
+.profileInfo {
+ text-align: center;
+ margin-top: 20px;
+}
+
+.profileForeignInfo {
+ background-color: #3c3c3c;
+ margin-top: 20px;
+ bisplay: flex;
+ flex-direcrion: column;
+ text-align: left;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+.profileActions {
+ display: flex;
+ flex-direction: row;
+ gap: 10px;
+}
+
+.profileActions button {
+ width: 100%;
+}

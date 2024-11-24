@@ -2,7 +2,7 @@ import {Outlet, createBrowserRouter, RouterProvider} from 'react-router-dom'
 import {useEffect, useState} from 'react'
 import {Header, Preloader, Container} from './widgets'
 import style from './styles.module.css'
-import {Posts, Login, Registration} from './pages'
+import {Posts, Login, Registration, Profile} from './pages'
 
 const Wrapper = () => {
  return (
@@ -37,6 +37,10 @@ function App() {
     {
      path: 'registration',
      element: <Registration/>
+    },
+    {
+     path: 'profile/:id?',
+     element: <Profile/>
     }
    ]
   }

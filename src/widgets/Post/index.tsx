@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import style from './styles.module.css'
 
 type TPostProps = {
@@ -14,7 +15,7 @@ const Post = (props: TPostProps) => {
       <div className={style.postInfo}>
        <div className={style.postInfoUser}>
         <div className={style.postInfoUserImage}></div>
-        <a href='#'>user/id0</a>
+        <Link to='/profile/0'>user/id0</Link>
        </div>
       <span>at 11:34pm</span>
       </div>

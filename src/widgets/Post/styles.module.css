@@ -16,6 +16,7 @@
 
 .postInfoUser a {
   line-height: 32px;
+  color: #fff;
 }
 
 .postInfoUser {
@@ -28,7 +29,7 @@
 .postInfoUserImage {
   width: 32px;
   height: 32px;
-  background-color: #cc11aa;
+  background-color: var(--primary-color);
   display: block;
   border-radius: 100px;
   margin-right: 10px;
