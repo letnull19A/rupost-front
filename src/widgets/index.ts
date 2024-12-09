@@ -4,6 +4,7 @@ import Header from './Header'
 import Container from './Container'
 import Post from './Post'
 import Panel from './Panel'
+import Bar from './Bar'
 
 export {
  Header,
@@ -11,5 +12,6 @@ export {
  Container,
  Preloader,
  NewPost,
- Panel
+ Panel,
+ Bar
 }

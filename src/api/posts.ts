@@ -1,5 +1,8 @@
 const Post = {
- getAll: () => {
+ getAll: (): Promise<any> => {
+
+  const result = await fetch('')
+
   return [
    {text: 'проверка mock api'},
    {text: '5-й месяц в армии'},
